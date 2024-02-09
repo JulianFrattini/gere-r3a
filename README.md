@@ -104,7 +104,7 @@ In order to understand the process of creating the model of requirements-affecte
 
 The [model files](./3-model-construction/models/) allow extending the graphical models further.
 
-## Author and Article information
+## Author and Article Information
 
 (anonymized during the double-blind peer review process)
 
