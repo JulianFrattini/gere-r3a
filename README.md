@@ -14,8 +14,6 @@ Find a detailed description of the content of this repository in the [descriptio
 
 ## Description of the Artifact
 
-### Overview
-
 This artifact is structured according to the steps of the study during which it was created. The repository consists of the following directories and files.
 
 * 1-data-collection: directory containing all instructions and data from the three data collection procedures
@@ -43,10 +41,6 @@ This artifact is structured according to the steps of the study during which it 
   * figures: additional figures for visualization of results
   * util: utility source code files
 * requirements.txt: list of required Python libraries to execute the source code files
-
-### Table Details
-
-The following contains more information about certain, more complex tables.
 
 ## System Requirements
 
@@ -99,6 +93,16 @@ In order to understand the process of generating codes from the raw, extracted d
     3. The "Valuation Overlap v1" and "Valuation Overlap v2" contain the independent application of the valuation-exclusion (also described in the [coding guidelines](./2-data-coding/meta-model-coding-guideline.pdf)).
 3. Execute the [validity notebook](./2-data-coding/validity_valuation.ipynb) to calculate the interrater agreement on the valuation exclusion overlap.
 4. Execute the [data evaluation notebook](./2-data-coding/data-evaluation.ipynb) to confirm the descriptive statistics about the distribution of unique codes.
+
+### Model Creation
+
+In order to understand the process of creating the model of requirements-affected activities and their attributes from the list of codes, conduct the following steps:
+
+1. Execute the [code consolidation notebook](./3-model-construction/code-consolidation.ipynb), which visualizes the distribution of codes among the different data sources as well as the co-occurrence of activity and activity attribute as well as artifact and artifact attribute codes.
+2. Review the [code consolidation markdown file](./3-model-construction/model-consolidation.md), which describes the step-by-step process of generating a model from the codes and matrices.
+3. Inspect the [activity-attribute studies matrix](./3-model-construction/activity-attribute-studies.xlsx), which lists, which experimental studies measure which attributes of which activities. This guides selecting measurement instruments for requirements-affected activities.
+
+The [model files](./3-model-construction/models/) allow extending the graphical models further.
 
 ## Author and Article information
 

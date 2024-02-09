@@ -13,11 +13,11 @@ This document reports the process of constructing the model of requirements-affe
 
 The starting point of the model construction process is the [code consolidation](./../src/code-consolidation.ipynb) process, in which the codes applied to the extracted data were cleaned and organized. The code consolidation produced the following matrix of co-occurrence.
 
-![Distribution of attributes among activities](./../figures/png/distribution-activities-attributes.png)
+![Distribution of attributes among activities](./models/png/distribution-activities-attributes.png)
 
 Each cell contains a number specifying how many data points were coded with this combination of the respective activity (in the rows) and activity attribute (in the columns). We create one class for each row, adding all attributes with a cell count of more than one as attributes tp the class. This results in the following overview.
 
-![Generated classes](./../figures/png/r3a-v0-classes.png)
+![Generated classes](./models/png/r3a-v0-classes.png)
 
 We took the freedom to merge the *interpreting* and *understanding* with the *comprehending* activity because the surveyed literature does not contain any sufficient distinction of the three activities.
 
@@ -30,7 +30,7 @@ To structure the model better, we introduce a hierarchy, i.e., order the classes
 
 Both steps were guided by the personal experience of the authors as well as the "Guide to the Software Engineering Body of Knowledge"[^1]. The resulting model looks as follows.
 
-![Hierarchy of activities](./../figures/png/r3a-v1-hierarchy.png)
+![Hierarchy of activities](./models/png/r3a-v1-hierarchy.png)
 
 ## Abstracting attributes
 
@@ -49,13 +49,13 @@ Consequently, we make subjective assumptions about the transferability of some a
 
 These attributes represent both the general temporal property (duration) and human properties (ease-of-use, ease-of-learning, etc.). The resulting, minimized model looks as follows.
 
-![Minimized model](./../figures/png/r3a-v2-minimized.png)
+![Minimized model](./models/png/r3a-v2-minimized.png)
 
 ## Adding Artifacts
 
 A final extension to the model is adding the perspective of artifacts. As some activities are evaluated by the artifacts they produce, they form an important perspective when characterizing the fitness-for-purpose of a requirement. The top part of the following model contains the previously constructed, minimal model of activities and activity attributes, while the bottom part contains a model of produced artifacts and their artifact attributes. Every non-inheritance relation between an activity and an artifact means "*activity* produces *artifact*."
 
-![Extended model](./../figures/png/r3a-v3-complete.png)
+![Extended model](./models/png/r3a-v3-complete.png)
 
 Because the artifact attributes resemble the ones of standard software product qualities,[^2] we chose to exclude it from the manuscript.
 
