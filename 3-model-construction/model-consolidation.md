@@ -7,6 +7,7 @@ This document reports the process of constructing the model of requirements-affe
 | 1 | [Creating classes](#creating-classes) | Population of the model with elements |
 | 2 | [Creating a hierarchy](#creating-a-hierarchy) | Structuring the elements hierarchically | 
 | 3 | [Abstracting attributes](#abstracting-attributes) | Moving attributes to higher levels |
+| 4 | [Adding artifacts](#adding-artifacts) | Adding artifact concepts |
 
 ## Creating classes
 
@@ -50,4 +51,14 @@ These attributes represent both the general temporal property (duration) and hum
 
 ![Minimized model](./../figures/png/r3a-v2-minimized.png)
 
+## Adding Artifacts
+
+A final extension to the model is adding the perspective of artifacts. As some activities are evaluated by the artifacts they produce, they form an important perspective when characterizing the fitness-for-purpose of a requirement. The top part of the following model contains the previously constructed, minimal model of activities and activity attributes, while the bottom part contains a model of produced artifacts and their artifact attributes. Every non-inheritance relation between an activity and an artifact means "*activity* produces *artifact*."
+
+![Extended model](./../figures/png/r3a-v3-complete.png)
+
+Because the artifact attributes resemble the ones of standard software product qualities,[^2] we chose to exclude it from the manuscript.
+
 [^1]: Bourque, P., & Fairley, R. J. N. I. C. S. (2004). Swebok. Nd: IEEE Computer society.
+
+[^2]: ISO/IEC 25010 (2011) Systems and software engineering: Systems and software Quality Requirements and Evaluation (SQuaRE) - System and software quality models. International Organization for Standardization, Geneva

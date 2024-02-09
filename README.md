@@ -29,6 +29,10 @@ This artifact is structured according to the steps of the study during which it 
   * meta-model-coding-guidelines.pdf: meta-model of the extracted concepts as well as **coding guidelines** for the coding of the extracted textual descriptions
   * r3a-data-extraction.xlsx: Excel file containing the extracted and coded data
   * validity_evaluation.ipynb: calculation of the inter-rater agreement between two researchers on the exclusion of non-valuating attributes
+* 3-model-construction: directory containing all material for the construction of the model from the coded data
+  * models: figures of the different versions of the model (both in editable `graphml` format, as a `pdf` vector graphic, and `png` pixel graphic)
+  * code-consolidation.ipynb: notebook consolidating model properties from the extracted codes (e.g., visualizing distributions and co-occurrences)
+  * model-consolidation.md: markdown file describing the **model construction** process from the codes to the model (including a documentation of all subjective decisions)
 
 ## System Reqirements
 
