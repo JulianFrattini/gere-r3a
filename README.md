@@ -71,7 +71,7 @@ Once the virtual environment is running and all requirements installed and ipyke
 
 ## Steps to Replicate
 
-The following subsections highlight how to use the artifacts in this repository in order to comprehend the steps of the study.
+The following subsections highlight how to use the artifacts in this repository in order to comprehend the more complex steps of the study.
 
 ### Systematic Literature Review on Requirements Experimentation
 
@@ -81,12 +81,24 @@ In order to understand the SLR on human-subject experimentation involving requir
 2. Inspect the [list of venues](./1-data-collection/experimentation-literature/r3a-venues.xlsx). The sheets "Conferences" and "Journals" contain all Software Engineering (SE) venues with a [CORE rank](portal.core.edu.au/conf-ranks) of A* or A (plus a few select additions relevant to requirements engineering). Both sheets contain a classification of whether they are actually relevant to SE or not.
 3. Inspect the [selection of venues](./1-data-collection/experimentation-literature/r3a-venues.xlsx), i.e., the sheet named "Selection", for a summary of all SE relevant venues plus their search term for the respective library where the venue is reliably indexed.
 4. Review the articles returned by the database searches. Each file in the [candidates directory](./1-data-collection/experimentation-literature/primary-study-candidates/) contains the search results for one respective venue (identifiable by the acronym contained in the file title).
-5. Inspect the [inclusion table](./1-data-collection/experimentation-literature/r3a-slr-experimentation.xlsx):
+5. Inspect the [inclusion table](./1-data-collection/experimentation-literature/r3a-slr-experimentation.xlsx), which contains the following sheets:
     1. The sheet "Candidates" assembles the search results of all files from the candidates directory. It further contains the rating of the inclusion and exclusion criteria (I1, I2, E1-E4).
     2. The sheet "Venues" shows an overview over all venues. The column "IP" calculates the inclusion percentage, i.e., how many of the candidates from the database search of this venue (total number in column "N") were included.
     3. The sheets "Overlap" and "Overlap 2" show the independent execution of the inclusion criteria to a random sample of studies. 
     4. The sheets "Agreement" and "Agreement 2" contrast the decision of the two raters and show disagreements.
 6. Execute the [validity notebook](./1-data-collection/experimentation-literature/validity_inclusion.ipynb) to recalculate the interrater agreement between two raters (Overlap 2).
+
+### Data Coding
+
+In order to understand the process of generating codes from the raw, extracted data, conduct the following steps:
+
+1. Review the [meta-model specification and coding guidelines](./2-data-coding/meta-model-coding-guideline.pdf), which describes the structure of the concept under study as well as the process of extracting its elements.
+2. Inspect the [extraction file](./2-data-coding/r3a-data-extraction.xlsx), which contains the following sheets:
+    1. The "Data" sheet contains the textual descriptions of activities and attributes extracted from all eligible data sources as well as the associated activity, activity attribute, artifact, and artifact attribute codes.
+    2. The four sheets with the name of those four code groups contain an overview and count of the respective codes in that group.
+    3. The "Valuation Overlap v1" and "Valuation Overlap v2" contain the independent application of the valuation-exclusion (also described in the [coding guidelines](./2-data-coding/meta-model-coding-guideline.pdf)).
+3. Execute the [validity notebook](./2-data-coding/validity_valuation.ipynb) to calculate the interrater agreement on the valuation exclusion overlap.
+4. Execute the [data evaluation notebook](./2-data-coding/data-evaluation.ipynb) to confirm the descriptive statistics about the distribution of unique codes.
 
 ## Author and Article information
 
