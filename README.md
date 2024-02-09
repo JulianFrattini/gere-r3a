@@ -71,10 +71,27 @@ Once the virtual environment is running and all requirements installed and ipyke
 
 ## Steps to Replicate
 
+The following subsections highlight how to use the artifacts in this repository in order to comprehend the steps of the study.
+
+### Systematic Literature Review on Requirements Experimentation
+
+In order to understand the SLR on human-subject experimentation involving requirements specifications, conduct the following steps:
+
+1. Review the [SLR guidelines](./1-data-collection/experimentation-literature/review-guideline.pdf), which describe the overall approach of this review.
+2. Inspect the [list of venues](./1-data-collection/experimentation-literature/r3a-venues.xlsx). The sheets "Conferences" and "Journals" contain all Software Engineering (SE) venues with a [CORE rank](portal.core.edu.au/conf-ranks) of A* or A (plus a few select additions relevant to requirements engineering). Both sheets contain a classification of whether they are actually relevant to SE or not.
+3. Inspect the [selection of venues](./1-data-collection/experimentation-literature/r3a-venues.xlsx), i.e., the sheet named "Selection", for a summary of all SE relevant venues plus their search term for the respective library where the venue is reliably indexed.
+4. Review the articles returned by the database searches. Each file in the [candidates directory](./1-data-collection/experimentation-literature/primary-study-candidates/) contains the search results for one respective venue (identifiable by the acronym contained in the file title).
+5. Inspect the [inclusion table](./1-data-collection/experimentation-literature/r3a-slr-experimentation.xlsx):
+    1. The sheet "Candidates" assembles the search results of all files from the candidates directory. It further contains the rating of the inclusion and exclusion criteria (I1, I2, E1-E4).
+    2. The sheet "Venues" shows an overview over all venues. The column "IP" calculates the inclusion percentage, i.e., how many of the candidates from the database search of this venue (total number in column "N") were included.
+    3. The sheets "Overlap" and "Overlap 2" show the independent execution of the inclusion criteria to a random sample of studies. 
+    4. The sheets "Agreement" and "Agreement 2" contrast the decision of the two raters and show disagreements.
+6. Execute the [validity notebook](./1-data-collection/experimentation-literature/validity_inclusion.ipynb) to recalculate the interrater agreement between two raters (Overlap 2).
+
 ## Author and Article information
 
 (anonymized during the double-blind peer review process)
 
 ## Licensing
 
-Copyright © 2023 by the authors. This work is licensed under [MIT License](./LICENSE).
+Copyright © 2024 by the authors. This work is licensed under [MIT License](./LICENSE).
