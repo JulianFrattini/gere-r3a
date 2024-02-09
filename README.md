@@ -33,6 +33,10 @@ This artifact is structured according to the steps of the study during which it 
   * models: figures of the different versions of the model (both in editable `graphml` format, as a `pdf` vector graphic, and `png` pixel graphic)
   * code-consolidation.ipynb: notebook consolidating model properties from the extracted codes (e.g., visualizing distributions and co-occurrences)
   * model-consolidation.md: markdown file describing the **model construction** process from the codes to the model (including a documentation of all subjective decisions)
+* supplementary: additional material
+  * figures: additional figures for visualization of results
+  * util: utility source code files
+* requirements.txt: list of required Python libraries to execute the source code files
 
 ## System Reqirements
 
