@@ -24,7 +24,11 @@ This artifact is structured according to the steps of the study during which it 
     * visual-aid.pdf: visual support (i.e., slide deck) for the interview
   * process-model-literature: material for the review of software process liteature
     * r3a-process-models.xlsx: Excel file specifying the reviewed software process models
-    
+* 2-data-coding: directory containing all instructions, data, and evaluation of the coding process of the extracted data
+  * data-evaluation.ipynb: notebook generating descriptive statistics about the coded data
+  * meta-model-coding-guidelines.pdf: meta-model of the extracted concepts as well as **coding guidelines** for the coding of the extracted textual descriptions
+  * r3a-data-extraction.xlsx: Excel file containing the extracted and coded data
+  * validity_evaluation.ipynb: calculation of the inter-rater agreement between two researchers on the exclusion of non-valuating attributes
 
 ## System Reqirements
 
