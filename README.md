@@ -6,11 +6,20 @@ Requirements fulfill a purpose of informing subsequent software engineering acti
 
 ![Activities in Software Engineering](./supplementary/figures/activities-in-se.png)
 
-Given a lack of a systematic overview of requirements-affected activities and their attributes, by which they can be measured, we initiate the construction of such a model in our initial study. The first version of the model looks as follows.
+Given a lack of a systematic overview of requirements-affected activities and their attributes, by which they can be measured, we initiate the construction of such a model in our initial study. The model has the following four goals:
+
+1. **Applicability**: The model can represent all requirements-affected activities and attributes in any given SE context.
+2. **Suitability**: The model can be used to evaluate relevant activities by means of their attributes.
+3. **Extensibility**: The model can be extended with new activities or attributes.
+4. **Usability**: The model can be accessed and comprehended by software engineers.
+
+The first version of the model looks as follows.
 
 ![Model of requirements-affected activities and their attributes](./3-model-construction/models/png/r3a-v2-minimized.png)
 
 Find a detailed description of the content of this repository in the [description of the artifact](#description-of-the-artifact), including where to find which file. The [system requirements](#system-requirements) and [installation instructions](#installation-instructions) provide guidance for using the content of this repository. And view the [steps to replicate](#steps-to-replicate) in order to find quick access guidelines when trying to replicate specific parts of the study.
+
+To find out how to contribute to the endeavor, check out the [HOWTOCONTRIBUTE.md](HOWTOCONTRIBUTE.md) guidelines.
 
 ## Description of the Artifact
 
@@ -41,6 +50,7 @@ This artifact is structured according to the steps of the study during which it 
 * supplementary: additional material
   * figures: additional figures for visualization of results
   * util: utility source code files
+* HOWTOCONTRIBUTE.md: instructions of how to contribute to the endeavor of creating and maintaining the model
 * requirements.txt: list of required Python libraries to execute the source code files
 
 ## System Requirements
