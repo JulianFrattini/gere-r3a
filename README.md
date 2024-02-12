@@ -24,7 +24,8 @@ This artifact is structured according to the steps of the study during which it 
     * review-guidelines.pdf: instructions about the **data base search** as well as the **inclusion/exclusion** (i.e., inclusion and exclusion criteria) of primary studies
     * validity_inclusion.ipynb: calculation of the inter-rater agreement between two researchers on the inclusion/exclusion phase
   * interview-study: material for the interview study about requirements quality
-    * interview-protocol.pdf: guideliens for the execution of the semi-structured interview about requirements quality impact
+    * interview-protocol.pdf: guidelines for the execution of the semi-structured interview about requirements quality impact
+    * revised-interview-proposal.md: proposal for an updated interview protocol that is particularly about eliciting requirements-affected activities and their attributes
     * visual-aid.pdf: visual support (i.e., slide deck) for the interview
   * process-model-literature: material for the review of software process liteature
     * r3a-process-models.xlsx: Excel file specifying the reviewed software process models
