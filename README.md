@@ -1,5 +1,7 @@
 # Requirements-affected Activities and their Attributes
 
+[![GitHub](https://img.shields.io/github/license/JulianFrattini/gere-r3a)](./LICENSE)
+
 This repository contains the data, material, source code, and results of the initiative of creating and maintaining a harmonized model of requirements-affected activities and their attributes. 
 
 Requirements fulfill a purpose of informing subsequent software engineering activities that are affected by them, i.e., that use these requirements as an input. The figure below visualizes a simplified software development process and highlights activities that count as *requirements-affected* since they use a requirements specification as an input.
