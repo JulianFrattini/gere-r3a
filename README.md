@@ -1,6 +1,7 @@
 # Requirements-affected Activities and their Attributes
 
 [![GitHub](https://img.shields.io/github/license/JulianFrattini/gere-r3a)](./LICENSE)
+[![DOI](https://zenodo.org/badge/749699196.svg)](https://zenodo.org/doi/10.5281/zenodo.10869626)
 
 This repository contains the data, material, source code, and results of the initiative of creating and maintaining a harmonized model of requirements-affected activities and their attributes. 
 
@@ -35,7 +36,11 @@ This artifact was produced by the following authors.
 | Michael Unterkalmsteiner | Blekinge Institute of Technology, Sweden | | 
 | Daniel Mendez | Blekinge Institute of Technology, Sweden & fortiss GmbH, Germany | | 
 
-Cite this artifact as follows: Frattini, J., Fischbach, J., Fucci, D., Unterkalmsteiner, M. &Mendez, D., (2024, June). Measuring the Fitness-for-Purpose of Requirements: An initial Model of Activities and Attributes. In 2024 IEEE 32nd International Requirements Engineering Conference (RE). IEEE.
+Cite this artifact as follows: _Frattini, J., Fischbach, J., Fucci, D., Unterkalmsteiner, M. &Mendez, D., (2024, June). Measuring the Fitness-for-Purpose of Requirements: An initial Model of Activities and Attributes. In 2024 IEEE 32nd International Requirements Engineering Conference (RE). IEEE._
+
+## Artifact Location
+
+A persistent version of the artifact is located at https://zenodo.org/doi/10.5281/zenodo.10869626.
 
 ## Description of the Artifact
 
