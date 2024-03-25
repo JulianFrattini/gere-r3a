@@ -23,6 +23,20 @@ Find a detailed description of the content of this repository in the [descriptio
 
 To find out how to contribute to the endeavor, check out the [HOWTOCONTRIBUTE.md](HOWTOCONTRIBUTE.md) guidelines.
 
+## Authors Information
+
+This artifact was produced by the following authors.
+
+| Name | Affiliation | Contact |
+|---|---|---|
+| Julian Frattini | Blekinge Institute of Technology, Sweden | juf@bth.se |
+| Jannik Fischbach | Netlight GmbH, Germany & fortiss GmbH, Germany | |
+| Davide Fucci | Blekinge Institute of Technology, Sweden | | 
+| Michael Unterkalmsteiner | Blekinge Institute of Technology, Sweden | | 
+| Daniel Mendez | Blekinge Institute of Technology, Sweden & fortiss GmbH, Germany | | 
+
+Cite this artifact as follows: Frattini, J., Fischbach, J., Fucci, D., Unterkalmsteiner, M. &Mendez, D., (2024, June). Measuring the Fitness-for-Purpose of Requirements: An initial Model of Activities and Attributes. In 2024 IEEE 32nd International Requirements Engineering Conference (RE). IEEE.
+
 ## Description of the Artifact
 
 This artifact is structured according to the steps of the study during which it was created. The repository consists of the following directories and files.
@@ -76,7 +90,7 @@ To execute the code contained in this repository, make sure all requirements con
 
 Once the virtual environment is running and all requirements installed and ipykernel are installed, the Jupyter notebook can be executed from the virtual environment.
 
-## Steps to Replicate
+## Usage Instructions
 
 The following subsections highlight how to use the artifacts in this repository in order to comprehend the more complex steps of the study.
 
@@ -116,10 +130,6 @@ In order to understand the process of creating the model of requirements-affecte
 3. Inspect the [activity-attribute studies matrix](./3-model-construction/activity-attribute-studies.xlsx), which lists, which experimental studies measure which attributes of which activities. This guides selecting measurement instruments for requirements-affected activities.
 
 The [model files](./3-model-construction/models/) allow extending the graphical models further.
-
-## Author and Article Information
-
-(anonymized during the double-blind peer review process)
 
 ## Licensing
 
