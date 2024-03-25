@@ -52,7 +52,7 @@ The model is currently maintained by the following team:
 
 | Name | Role | Since | Contact |
 |---|---|---|---|
-| (anonymized during double-blind peer review) | | | |
+| Julian Frattini | Artifact Owner | 2024-01-29 | juf@bth.se |
 
 Please reach out to the lead maintainers in case of questions.
 

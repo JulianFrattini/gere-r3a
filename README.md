@@ -5,6 +5,8 @@
 
 This repository contains the data, material, source code, and results of the initiative of creating and maintaining a harmonized model of requirements-affected activities and their attributes. 
 
+## Summary of the Artifact
+
 Requirements fulfill a purpose of informing subsequent software engineering activities that are affected by them, i.e., that use these requirements as an input. The figure below visualizes a simplified software development process and highlights activities that count as *requirements-affected* since they use a requirements specification as an input.
 
 ![Activities in Software Engineering](./supplementary/figures/activities-in-se.png)
@@ -96,6 +98,18 @@ To execute the code contained in this repository, make sure all requirements con
 Once the virtual environment is running and all requirements installed and ipykernel are installed, the Jupyter notebook can be executed from the virtual environment.
 
 ## Usage Instructions
+
+There are two main use cases that this scenario intends to support: using the model and evolving the model.
+
+### Using the Model
+
+To use the model of requirements-affected activities and their attributes, review the [model consolidation](./3-model-construction/model-consolidation.md) description which contains the most recent version of the model.
+
+### Evolving the Model
+
+To contribute to the model, please consider the [contribution guideline](./HOWTOCONTRIBUTE.md).
+
+## Steps to Reproduce
 
 The following subsections highlight how to use the artifacts in this repository in order to comprehend the more complex steps of the study.
 
