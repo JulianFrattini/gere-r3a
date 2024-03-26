@@ -32,7 +32,7 @@ Both steps were guided by the personal experience of the authors as well as the 
 
 ![Hierarchy of activities](./models/png/r3a-v1-hierarchy.png)
 
-## Abstracting attributes
+## Abstracting Attributes
 
 In principle, if all sub-classes of a super-class contain the same attribute, this attribute can be moved to the super-class. In our data set, there are candidates of attributes that are likely to be transferrable to super-classes, but they are not reported in combination with all activities. This is a shortcoming of the sample data, not the structure of the model. 
 
